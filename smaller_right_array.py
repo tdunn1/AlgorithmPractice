@@ -5,7 +5,6 @@ Created on Tue Feb  7 15:14:48 2023
 @author: Tim
 """
 import bisect
-import pdb
 
 #Find number of elements smaller and to the right of each element
 def small_elements_r(array:list):
@@ -18,7 +17,3 @@ def small_elements_r(array:list):
         bisect.insort(seen,num)
         
     return list(reversed(result))
-
-x = [3,4,9,6,1]
-pdb.set_trace()
-print(small_elements_r(x))
