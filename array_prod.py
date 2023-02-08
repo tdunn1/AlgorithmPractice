@@ -5,7 +5,8 @@ Created on Tue Jan 24 20:29:40 2023
 @author: Tim
 """
 
-def array_prod(nums):
+#Returns product of all other elements.
+def array_prod(nums:list):
     prefix_prod = []
     
     for num in nums:
@@ -35,7 +36,3 @@ def array_prod(nums):
             result.append(prefix_prod[i-1]*suffix_prod[i+1])
             
     return result
-
-a = [1,2,3,4,5]
-
-print(array_prod(a))
