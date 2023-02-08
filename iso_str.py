@@ -5,6 +5,7 @@ Created on Thu Jan 19 15:36:01 2023
 @author: Tim
 """
 
+#Determine if two strings are isomorphic.
 def string_isomorph(str1, str2):
     dict1 = {}
     dict2 = {}
@@ -19,8 +20,3 @@ def string_isomorph(str1, str2):
             return False
         
     return True
-
-s = 'egg'
-t = 'add'
-
-print(string_isomorph(s,t))
