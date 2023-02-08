@@ -5,7 +5,8 @@ Created on Thu Jan 26 12:33:55 2023
 @author: Tim
 """
 
-def min_sortindex(nums):
+#Find minimum index range to sort array.
+def min_sortindex(nums:list):
     
     left,right = None,None
     n = len(nums)
@@ -22,7 +23,3 @@ def min_sortindex(nums):
             left = i
             
     return left, right
-
-a = [3,7,5,6,9]
-print(min_sortindex(a))
-
