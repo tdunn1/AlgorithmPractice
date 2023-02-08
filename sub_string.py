@@ -5,6 +5,7 @@ Created on Fri Jan 20 17:07:18 2023
 @author: Tim
 """
 
+#Determines if str s is a subsequence of str t.
 def sub_seq(s:str,t:str) -> bool:
     
     if len(s) > len(t): 
@@ -21,7 +22,3 @@ def sub_seq(s:str,t:str) -> bool:
         j += 1
         
     return True if i == len(s) else False
-
-seq = "spn"
-string = "saaaapn"
-print(sub_seq(seq,string))
