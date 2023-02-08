@@ -5,6 +5,7 @@ Created on Fri Feb  3 16:35:21 2023
 @author: Tim
 """
 
+#Find largest contiguous subarray sum allowing for wrap around.
 def array_sub_sum(array):
     wrap_around_sum = sum(array) - min_sub(array)
     
@@ -28,5 +29,3 @@ def min_sub(array):
         min_so_far = min(min_to_here, min_so_far)
         
     return min_so_far
-
-print(array_sub_sum([3,-2,2,7]))
