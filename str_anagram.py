@@ -19,8 +19,3 @@ def anagram_indices(s:str, word:str):
             results.append(i)
     
     return results
-
-s = 'abxaba'
-word = 'ab'
-
-print(anagram_indices(s,word))
