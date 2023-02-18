@@ -41,7 +41,3 @@ def anagram_ind(s:str, word:str):
         
     return results
 
-s = 'abxaba'
-w = 'ab'
-
-print(anagram_ind(s, w))
