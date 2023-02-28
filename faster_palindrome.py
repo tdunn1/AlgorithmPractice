@@ -33,5 +33,3 @@ def palindrome_indices(words:list) -> list:
                 
     return results
     
-words = ['code', 'edoc', 'da', 'd']
-print(palindrome_indices(words))
