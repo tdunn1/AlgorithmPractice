@@ -4,7 +4,7 @@ Created on Sat Feb 18 12:32:55 2023
 
 @author: Tim
 """
-#See if element pairs form palindromes
+#See if element pairs form palindromes, O(n^2*c)
 def is_palindrome(word:str):
     if len(word)%2 == 0:
         return word[:len(word)//2] == word[-1:len(word)//2-1: -1]
