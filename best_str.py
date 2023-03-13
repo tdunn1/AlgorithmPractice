@@ -19,6 +19,6 @@ def get_best_str(s:str, k):
     else:
         return ''.join(sorted(string))
     
-print(get_best_str('daily',2))
+
 
         
