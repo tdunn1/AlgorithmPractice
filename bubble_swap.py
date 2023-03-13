@@ -23,5 +23,3 @@ def bubble_swap(s:str, i:int, j:int):
         
     return ''.join(string)
 
-s = 'daily'
-print(bubble_swap(s,5,0))
